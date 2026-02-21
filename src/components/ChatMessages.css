@@ -1,0 +1,10 @@
+.chat-messages-container {
+  overflow: scroll;
+  padding-bottom: 90px;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.chat-messages-container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,49 @@
+.chat-input-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+}
+
+.chat-input-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.chatbot-container-bottom .chat-input-container {
+  margin-bottom: 52px;
+}
+
+.chat-input {
+  font-size: 15px;
+  padding: 12px 15px;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: rgb(25, 135, 84);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.reset-button {
+  background-color: rgb(244, 243, 243);
+  color: rgb(13, 8, 8);
+  border: none;
+  padding: 10px 20px;
+  margin-left: 12px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
